@@ -99,6 +99,6 @@ else if (options['global']) {
         }
     }
     else {
-        console.log('no linked module in your node_modules diretory, nothing to do')
+        console.log('no linked module in your ./node_modules directory, nothing to do')
     }
 }

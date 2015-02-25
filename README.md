@@ -4,11 +4,11 @@ a utility to simplify the usage of npm-link.
 
 ## install
 For the moment i didn't do global GYP install, you have to do this yourself
+
     git clone git@github.com:ybootin/npm-unlink.git
     cd npm-unlink
-
+    npm link
     ln -s /usr/local/lib/node_modules/npm-unlink/unlink.js /usr/local/bin/npm-unlink
-    chmod +x /usr/local/bin/npm-unlink
 
 
 ## Usage
