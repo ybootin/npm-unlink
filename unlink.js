@@ -33,7 +33,7 @@ if (options['help']) {
 else if (options['global']) {
     var output = execSync('ls -l /usr/local/lib/node_modules | grep "\\\->"')
 
-    var m = (options["module"] &&options["module"].length > 0) ? null : options["module"].join(' ')
+    var m = (options["module"] && options["module"].length > 0) ? options["module"].join(' ') : null
 
     if (String(output).trim().length > 0) {
         console.log("try to unlink " + (m ? m : "all modules") + " globally")
